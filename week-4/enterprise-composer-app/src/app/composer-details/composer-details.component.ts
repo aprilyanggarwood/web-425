@@ -3,8 +3,8 @@
 Title: composer - details.component.ts
  Author: Professor Krasso
  Modified By: April Yang
- Date: 11/02/2022
- Description: Exercise 3.2 - Passing Data to Routes, Part 1 - composer-detail component
+ Date: 11/10/2022
+ Description: Assignment 4.4 - Async Pipe - composer-detail component
 
 */
 

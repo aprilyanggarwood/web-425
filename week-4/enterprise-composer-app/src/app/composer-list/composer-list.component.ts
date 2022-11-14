@@ -2,8 +2,8 @@
  Title: composer-list.component.ts
  Author: Professor Krasso
  Modified By: April Yang
- Date: 11/2/2022
- Description:  Composer list component (displays a list of composers)
+ Date: 11/10/2022
+ Description:  Assignment 4.4 - Async Pipe (displays a list of composers)
  */
 
 
