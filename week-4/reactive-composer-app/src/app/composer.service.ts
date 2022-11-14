@@ -1,3 +1,13 @@
+/*
+ Title: composer.service.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 11/10/2022
+ Description: Exercise 4.3 - Handling Events with Observables
+ */
+
+
+
 import { Injectable } from '@angular/core';
 import { IComposer } from './composer.interface';
 

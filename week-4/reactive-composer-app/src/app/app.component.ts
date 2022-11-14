@@ -2,8 +2,8 @@
  Title: app.component.ts
  Author: Professor Krasso
  Modified By: April Yang
- Date: 11/02/2022
- Description: App component
+ Date: 11/10/2022
+ Description: Exercise 4.3 - Handling Events with Observables -App component
  */
 
 
@@ -14,6 +14,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   assignment: string = 'Exercise 4.3 - Handling Events with Observables';
 }
+
+
