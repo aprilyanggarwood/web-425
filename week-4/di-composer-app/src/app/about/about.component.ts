@@ -2,8 +2,8 @@
  Title: about.component.ts
  Author: Professor Krasso
  Modified By: April Yang
- Date: 11/02/2022
- Description: Exercise 3.2 - Passing Data to Routes, Part 1 - About component ( About view)
+ Date: 11/10/2022
+ Description: Excercise 4.2 - Inversion of Control and Dependency Injection - About component ( About view)
  */
 
 import { Component, OnInit } from '@angular/core';

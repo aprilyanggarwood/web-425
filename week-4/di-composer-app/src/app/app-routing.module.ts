@@ -2,8 +2,8 @@
  * Title: app-routing.module.ts
  * Author: Professor Krasso
  * Modified By: April Yang
- * Date: 11/02/2022
- * Description: Exercise 3.2 - Passing Data to Routes, Part 1 - Routing file
+ * Date: 11/10/2022
+ * Description: Excercise 4.2 - Inversion of Control and Dependency Injection - Routing file
  */
 
 

@@ -1,3 +1,14 @@
+/*
+ Title: composer.service.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 11/10/2022
+ Description: Excercise 4.2 - Inversion of Control and Dependency Injection
+ */
+
+
+
+
 import { Injectable } from '@angular/core';
 import { IComposer } from './composer.interface';
 

@@ -2,8 +2,8 @@
  Title: composer-list.component.ts
  Author: Professor Krasso
  Modified By: April Yang
- Date: 11/2/2022
- Description:  Composer list component (displays a list of composers)
+ Date: 11/10/2022
+ Description: Excercise 4.2 - Inversion of Control and Dependency Injection-  Composer list component (displays a list of composers)
  */
 
 
