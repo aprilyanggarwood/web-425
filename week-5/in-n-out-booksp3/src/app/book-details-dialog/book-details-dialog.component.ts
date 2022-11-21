@@ -1,3 +1,14 @@
+/*
+ Title: book-details-dialog.component.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 11/20/2022
+ Description: Assignment 5.4 - Dialogs
+Resources: Material Design https://material.io
+*/
+
+
+
 import { Component, OnInit } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { Inject } from '@angular/core';
@@ -23,11 +34,17 @@ export class BookDetailsDialogComponent implements OnInit {
 
 
   constructor(private dialogRef: MatDialogRef<BookDetailsDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: IBook) {
-    // BookListComponent.showBookDetails()
-    // this.book = data.IBook;
 
-    // this.book.isbn = data.isbn;
-    // this.book.authors = data.authors;
+    // this.book.title = data.title,
+    // this.book.isbn = data.isbn,
+    // this.book.authors = data.authors
+    // this.book.numOfPages = data.numOfPages,
+    // this.book.description = data.description
+
+    // BookListComponent.showBookDetails()
+
+
+
 
   }
 

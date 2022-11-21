@@ -1,3 +1,14 @@
+/*
+ Title: app.module.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 11/20/2022
+ Description: Assignment 5.4 - Dialogs
+Resources: Material Design https://material.io
+*/
+
+
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
