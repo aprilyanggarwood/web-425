@@ -1,3 +1,14 @@
+/*
+ Title: contact.component.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 11/20/2022
+ Description: Assignment 5.2 - Navigation and Layout
+Resources: Material Design https://material.io
+*/
+
+
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
