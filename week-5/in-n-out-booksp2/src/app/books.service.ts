@@ -1,10 +1,10 @@
 /*
  Title: books.service.ts
  Author: Professor Krasso
- Date: 06/22/2022
- Modified By: Allan Trejo
+ Date: 11/20/2022
+ Modified By: April Yang
  Description: Assignment 5.3 - Data Tables
-  Resources: Material Design https://material.angular.io/components/table/overview
+ Resources: Material Design https://material.io
 */
 
 

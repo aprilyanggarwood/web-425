@@ -1,8 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-import { BooksService } from '../books.service';
-import { IBook } from '../book.interface';
-import { Observable } from 'rxjs';
-
 /*
  Title: book-list.component.ts
  Author: Professor Krasso
@@ -11,6 +6,13 @@ import { Observable } from 'rxjs';
  Description: Assignment 5.3 - Data Tables
 Resources: Material Design https://material.io
 */
+
+
+import { Component, OnInit } from '@angular/core';
+import { BooksService } from '../books.service';
+import { IBook } from '../book.interface';
+import { Observable } from 'rxjs';
+
 
 @Component({
   selector: 'app-book-list',
