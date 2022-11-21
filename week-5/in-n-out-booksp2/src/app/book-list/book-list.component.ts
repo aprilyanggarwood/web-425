@@ -3,7 +3,14 @@ import { BooksService } from '../books.service';
 import { IBook } from '../book.interface';
 import { Observable } from 'rxjs';
 
-
+/*
+ Title: book-list.component.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 11/20/2022
+ Description: Assignment 5.3 - Data Tables
+Resources: Material Design https://material.io
+*/
 
 @Component({
   selector: 'app-book-list',

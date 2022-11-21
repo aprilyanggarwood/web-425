@@ -1,3 +1,14 @@
+/*
+ Title: books.service.ts
+ Author: Professor Krasso
+ Date: 06/22/2022
+ Modified By: Allan Trejo
+ Description: Assignment 5.3 - Data Tables
+  Resources: Material Design https://material.angular.io/components/table/overview
+*/
+
+
+
 import { Injectable } from '@angular/core';
 import { IBook } from './book.interface';
 import { Observable } from 'rxjs';
@@ -13,25 +24,25 @@ export class BooksService {
   constructor() {
     this.books = [
       {
-        isbn: '0345339681',
-        title: 'The Hobbit',
-        description: 'Bilbo Baggins was a hobbit who wanted to be left alone in quiet comfort. But the wizard Gandalf came along with a band of homeless dwarves. Soon Bilbo was drawn into their quest, facing evil orcs, savage wolves, giant spiders, and worse unknown dangers. Finally, it was Bilbo–alone and unaided–who had to confront the great dragon Smaug, the terror of an entire countryside',
-        numOfPages: 322,
-        authors: ['J.R.R. Tolkien']
+        isbn: '9781519626295',
+        title: 'The Art of War',
+        description: 'The Ultimate Book of Ancient Chinese Military Strategy, Leadership and Politics',
+        numOfPages: 136,
+        authors: ['Sun-Tzu']
       },
       {
-        isbn: '0261103571',
-        title: 'The Fellowship of the Ring',
-        description: "The first volume in J.R.R. Tolkien's epic adventure THE LORD OF THE RINGS One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them",
-        numOfPages: 432,
-        authors: ['J.R.R. Tolkien']
+        isbn: '0670032549 ',
+        title: 'The Gunslinger',
+        description: 'The Dark Tower, Book 1',
+        numOfPages: 231,
+        authors: ['Stephen King']
       },
       {
-        isbn: '1514297272',
-        title: 'The Two Towers',
-        description: "The second volume in J.R.R. Tolkien's epic adventure THE LORD OF THE RINGS",
-        numOfPages: 448,
-        authors: ['J.R.R. Tolkien']
+        isbn: '9780099528531',
+        title: 'Twenty Thousand Leagues Under the Sea',
+        description: 'An adventure classic of deep-sea volcanoes, giant squid, and the renegade scientist Captain Nemo Professor Aronnax embarks on an expedition to hunt down and destroy a menacing sea monster. ',
+        numOfPages: 256,
+        authors: [ 'Jules Verne' ]
       },
       {
         isbn: '1514298139',
@@ -41,11 +52,11 @@ export class BooksService {
         authors: ['J.R.R. Tolkien']
       },
       {
-        isbn: '9780593099322',
-        title: 'Dune',
-        description: "A deluxe hardcover edition of Frank Herbert’s epic masterpiece—a triumph of the imagination and one of the bestselling science fiction novels of all time.",
-        numOfPages: 688,
-        authors: ['Frank Herbert']
+        isbn:'0062094351',
+        title:'The Exorcist',
+        description: 'William Peter Blattys groundbreaking story of faith and supernatural suspense',
+        numOfPages: 400,
+        authors: ['William Peter Blatty']
       }
 
    ]
