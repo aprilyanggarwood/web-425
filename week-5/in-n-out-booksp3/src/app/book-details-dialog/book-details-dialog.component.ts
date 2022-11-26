@@ -33,16 +33,23 @@ export class BookDetailsDialogComponent implements OnInit {
   // IBook: Array<string> = ['isbn', 'title', 'numOfPages', 'authors'];
 
 
-  constructor(private dialogRef: MatDialogRef<BookDetailsDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: IBook) {
+  constructor(private dialogRef: MatDialogRef<BookDetailsDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {
 
-    // this.book.title = data.title,
-    // this.book.isbn = data.isbn,
-    // this.book.authors = data.authors
-    // this.book.numOfPages = data.numOfPages,
-    // this.book.description = data.description
+   this.book = {
+        isbn:'',
+        title:'',
+        description: '',
+        numOfPages: 0,
+        authors: ['']
+      }
 
-    // BookListComponent.showBookDetails()
 
+
+    this.book.title = data.book.title;
+    this.book.isbn = data.book.isbn;
+    this.book.authors = data.book.authors;
+    this.book.numOfPages = data.book.numOfPages;
+    this.book.description = data.book.description;
 
 
 
