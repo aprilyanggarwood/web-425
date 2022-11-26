@@ -13,9 +13,6 @@ import { Component, OnInit } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { Inject } from '@angular/core';
 import { IBook } from '../book.interface';
-import { BooksService } from '../books.service';
-import { Observable } from 'rxjs';
-import { BookListComponent } from '../book-list/book-list.component';
 
 
 
