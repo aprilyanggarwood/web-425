@@ -35,6 +35,7 @@ export class BookDetailsDialogComponent implements OnInit {
 
   constructor(private dialogRef: MatDialogRef<BookDetailsDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {
 
+    // initialize the book object
    this.book = {
         isbn:'',
         title:'',
@@ -43,8 +44,7 @@ export class BookDetailsDialogComponent implements OnInit {
         authors: ['']
       }
 
-
-
+    // display book data in dialog box
     this.book.title = data.book.title;
     this.book.isbn = data.book.isbn;
     this.book.authors = data.book.authors;
