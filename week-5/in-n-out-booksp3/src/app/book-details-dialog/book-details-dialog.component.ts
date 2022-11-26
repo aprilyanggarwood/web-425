@@ -23,12 +23,7 @@ import { IBook } from '../book.interface';
 })
 export class BookDetailsDialogComponent implements OnInit {
 
-
-// book!: Observable<IBook>;
-//
   book!: IBook;
-  // IBook: Array<string> = ['isbn', 'title', 'numOfPages', 'authors'];
-
 
   constructor(private dialogRef: MatDialogRef<BookDetailsDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {
 
