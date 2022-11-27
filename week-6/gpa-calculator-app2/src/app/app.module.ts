@@ -1,3 +1,15 @@
+/*
+ Title: app.module.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 11/26/2022
+ Description: Assignment 6.4 - Input Properties
+Resources: Material Design https://material.io
+*/
+
+
+
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -19,7 +31,6 @@ import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { FormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
-
 
 
 

@@ -1,3 +1,14 @@
+/*
+ Title: app-routing.module.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 11/26/2022
+ Description: Assignment 6.4 - Input Properties
+Resources: Material Design https://material.io
+*/
+
+
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthLayoutComponent } from './auth-layout/auth-layout.component';
