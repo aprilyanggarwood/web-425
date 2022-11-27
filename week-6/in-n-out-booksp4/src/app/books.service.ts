@@ -2,8 +2,8 @@
  Title: books.service.ts
  Author: Professor Krasso
  Date: 11/20/2022
- Modified By: April Yang
- Description: Assignment 5.4 - Dialogs
+ Date: 11/26/2022
+ Description: Assignment 6.2 - Output Properties
 Resources: Material Design https://material.io
 */
 
