@@ -1,3 +1,14 @@
+/*
+ Title: sign-in.guard.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 12/02/2022
+ Description: Exercise 7.2 - Reactive Forms
+ Resources: Material Design https://material.io
+*/
+
+
+
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, UrlTree } from '@angular/router';
 import { Observable } from 'rxjs';
