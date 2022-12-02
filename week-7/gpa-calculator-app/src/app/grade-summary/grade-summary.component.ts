@@ -2,8 +2,8 @@
 Title: grade-summary.component.ts
  Author: Professor Krasso
  Modified By: April Yang
- Date: 11/26/2022
- Description: Assignment 6.4 - Input Properties
+ Date: 12/02/2022
+ Description: Exercise 7.3 - Form Validation
 Resources: Material Design https://material.io
 */
 

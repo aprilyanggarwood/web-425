@@ -1,3 +1,14 @@
+/*
+ Title: sign-in.service.ts
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 12/02/2022
+ Description: Exercise 7.3 - Form Validation
+ Resources: Material Design https://material.io
+*/
+
+
+
 import { Injectable } from '@angular/core';
 
 
