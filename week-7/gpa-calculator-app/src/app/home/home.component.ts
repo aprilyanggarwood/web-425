@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit {
     return this.transcriptForm!.controls;
   }
 
-  onSubmit(event: { currentTarget: { reset: () => void; }; }) {
+ onSubmit(event:any) {
     this.transcriptEntries.push({
       course: this.form['course'].value,
       grade: this.form['grade'].value
@@ -53,6 +53,16 @@ export class HomeComponent implements OnInit {
     event.currentTarget.reset()
 
   }
+
+
+  // onSubmit(event: { currentTarget: { reset: () => void; }; }) {
+  //   this.transcriptEntries.push({
+  //     course: this.form['course'].value,
+  //     grade: this.form['grade'].value
+  //   });
+  //   event.currentTarget.reset()
+
+  // }
 
   calculateResults() {
     let gpa: number = 0;
