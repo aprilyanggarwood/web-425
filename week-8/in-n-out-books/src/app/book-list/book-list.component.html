@@ -1,0 +1,35 @@
+<!--
+ Title: book-list.component.html
+ Author: Professor Krasso
+ Modified By: April Yang
+ Date: 11/26/2022
+ Description: Assignment 6.2 - Output Properties
+Resources: Material Design https://material.io
+-->
+
+<ng-container *ngIf="books.length === 0">
+  <mat-spinner></mat-spinner>
+</ng-container>
+
+<div fxFlex="column wrap">
+  <h2 fxFlex class="green">Top {{ books.length }} Favorite Books</h2>
+  <div class="grid-container">
+    <ng-container *ngFor="let book of books">
+      <mat-card mat-elevation-z8>
+        <mat-card-title
+          class="grid-container_href blue"
+          href
+          (click)="showBookDetails(book.isbn)"
+          >{{ book.title }}
+        </mat-card-title>
+        <mat-card-content class="grid-container__item">
+          <mat-list>
+            <mat-list-item>ISBN:{{ book.isbn }}</mat-list-item>
+            <mat-list-item>Pages:{{ book.numOfPages }}</mat-list-item>
+            <mat-list-item>Authors:{{ book.authors.join(",") }}</mat-list-item>
+          </mat-list>
+        </mat-card-content>
+      </mat-card>
+    </ng-container>
+  </div>
+</div>

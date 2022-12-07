@@ -1,0 +1,33 @@
+//  Title: book-list.component.scss
+//  Author: Professor Krasso
+//  Modified By: April Yang
+//  Date: 11/26/2022
+//  Description: Assignment 6.2 - Output Properties
+// Resources: Material Design https://material.io
+
+.a-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.a-link:hover {
+  text-decoration: underline;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto;
+  padding: 25px;
+}
+.grid-container__item {
+  padding: 20px;
+  font-size: 30px;
+}
+.grid-container__href:hover {
+  text-decoration: underline;
+}
+.grid-container__href {
+  text-decoration: none;
+  cursor: pointer;
+}
