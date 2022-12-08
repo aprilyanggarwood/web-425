@@ -49,8 +49,8 @@ export class BooksService {
     params = params.append('format', 'json');
     params = params.append('jscmd', 'details');
 
-    return this.http.get(`https://openlibrary.org/api/books?bibkeys=ISBN:${this.isbns.join(',')}&format=json`)
-    // params: params;
+    return this.http.get('https://openlibrary.org/api/books', {params: params})
+
 
 
   }

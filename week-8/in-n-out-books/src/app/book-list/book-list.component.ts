@@ -34,28 +34,29 @@ book!: IBook;
 constructor(private booksService: BooksService, private dialog: MatDialog) {
 
   this.booksService.getBooks().subscribe(res => {
-    console.log(res);
+    console.log(typeof res);
     for (let key in res) {
-      // if (res.hasOwnProperty(key)) {
-      //   let authors = [];
+      if (res.hasOwnProperty(key)) {
+        let authors = [];
 
-      //   if (res[key].details.authors) {
 
-      //     authors = res[key].details.authors.map(function (author:any) {
-      //       return author.name;
-      //     })
-      //   }
-      // }
+        if (res[key].authors) {
+
+          authors = res[key].authors.map(function (author:any) {
+            return author.name;
+          })
+        }
+      }
     }
 
-  //   this.books.push({
-  //     isbn: res[key].details.isbn_13 ? res[key].details.isbn_13 : res[key].details.isbn_10,
-  //     title: res[key].details.title,
-  //     description: res[key].details.subtitle ? res[key].details.subtile: 'N/A',
-  //     numOfPages: res[key].details.number_of_pages,
-  //     authors: this.book.authors
+    this.books.push({
+      isbn: res[key].details.isbn_13 ? res[key].details.isbn_13 : res[key].details.isbn_10,
+      title: res[key].details.title,
+      description: res[key].details.subtitle ? res[key].details.subtile: 'N/A',
+      numOfPages: res[key].details.number_of_pages,
+      authors: this.book.authors
 
-  //  })
+   })
 
 
   })
@@ -67,16 +68,16 @@ constructor(private booksService: BooksService, private dialog: MatDialog) {
   }
 
 showBookDetails(isbn: string){
-  // this.book = this.books.find(book => book.isbn === isbn);
+  this.book = this.books.find(book => book.isbn === isbn);
 
-  // const dialogRef = this.dialog.open(BookDetailsDialogComponent, { data: { book: this.book, disableClose: true, width: '800px'} });
+  const dialogRef = this.dialog.open(BookDetailsDialogComponent, { data: { book: this.book, disableClose: true, width: '800px'} });
 
 
-// dialogRef.afterClosed().subscribe(result => {
-//   if (result === 'confirm') {
-//     this.book == null;
-//       }
-//     });
+dialogRef.afterClosed().subscribe(result => {
+  if (result === 'confirm') {
+    this.book == null;
+      }
+    });
      console.log(this.book);
 }
 }
