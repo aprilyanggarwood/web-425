@@ -3,9 +3,46 @@
 //  Title: styles.scss
 //  Author: Professor Krasso
 //  Modified By: April Yang
-// Date: 11/26/2022
-// Description: Assignment 6.2 - Output Properties
+// Date: 12/11/2022
+// Description: Assignment 8.2 – Server-side Communications
 // Resources: Material Design https://material.io
 
 @import "./theme";
 
+html, body {
+  height: 100%;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.blue {
+  color: #2196F3;
+}
+
+.green {
+  color: #66BB6A;
+}
+
+.attribution-link {
+  text-decoration: none;
+  color: white;
+}
+
+.attribution-link:hover {
+  text-decoration: underline;
+}
+
+.card-title-icon {
+  text-align: center;
+}
+
+.card-title-icon, .mat-icon {
+  font-size: 72px;
+}
+
+.align-center {
+  text-align: center;;
+}

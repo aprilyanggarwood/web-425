@@ -2,20 +2,16 @@
  Title: books.service.ts
  Author: Professor Krasso
  Date: 11/20/2022
- Date: 11/26/2022
- Description: Assignment 6.2 - Output Properties
+ Date: 12/11/2022
+Description: Assignment 8.2 – Server-side Communications
 Resources: Material Design https://material.io
 */
 
 
 
 import { Injectable } from '@angular/core';
-import { IBook } from './book.interface';
-import { Observable } from 'rxjs';
-import { of } from 'rxjs';
-// import { map } from 'rxjs/operators';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { JsonPipe } from '@angular/common';
+
 
 
 
@@ -36,10 +32,7 @@ export class BooksService {
     '9780590405959'
   ];
 
-  constructor(private http: HttpClient) {
-
-
-  }
+  constructor(private http: HttpClient) {}
 
 
   getBooks() {
